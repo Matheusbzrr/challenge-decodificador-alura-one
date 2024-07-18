@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <header>
+    </header>
+    <main class="apresentacao">
+        
+        <section class="apresentacao__principal">
+            <img class="apresentacao__principal__logo-alura" src="assets/logo-alura.svg" alt="logo alura">
+            <div class="apresentacao__pricipal__textarea">
+                <textarea id="texto-criptador">Digite seu texto</textarea>
+            </div>
+
+            <div class="apresentacao__principal__aviso">
+                <img src="assets/exclamacao.svg" alt="png exclamacao">
+                <p class="texto-aviso">Apenas letras minúsculas e sem acento</p>
+            </div>
+        
+            <div class="apresentacao__principal_botoes">
+                <button id="criptografar" onclick="criptografando()" class="btn btn-criptografar">Criptografar</button>
+                <button id="descriptografando" onclick="descriptografando()"  class="btn btn-decodificador">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="apresentacao__direita">
+            <div class="apresentacao__direita__caixa">   
+                <div id="resultado" class="apresentacao__direita__resultado">
+                    <textarea id="sai-txt" class="apresentacao__direita__resultado__p" disabled></textarea>
+                </div>
+                
+                <div class="apresentacao__direita__cont" id="saida">
+                    <div id="apresentacao-direita" class="apresentacao__direita__animacao">
+                        <img src="assets/ilustacao.svg" alt="ilustracao pessoa procurando diamante">
+                    </div>
+                    <div class="apresentacao__direita__texto">
+                        <h2 class="apresentacao__direita__titulo">Nenhuma mensagem encontrada</h2>
+                        <p class="apresentacao__direita__paragrafo">Digite um texto que você desejsa criptografar ou descriptografar</p>
+                    </div>
+                </div>
+            <div id="botao-copiar" class="hidden">
+                <button id="copiar" onclick="copiarTxt()" class="btn btn-copiar">Copiar</button>
+            </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="cont" > 
+            <div class="cont__caixa-footer">
+                <p class="cont__txtrodape">Desenvolvido por Matheus Bezerra.</p>
+                <div class="cont__links">
+                    <div class="cont__links__github">
+                        <a href="https://github.com/Matheusbzrr">
+                        <img src="assets/icon-github.svg" alt="icone github">
+                        </a>
+                    </div>
+                    <div class="cont__links__linkedin">
+                        <a href="https://www.linkedin.com/in/matheus-bzrr/">
+                        <img src="assets/icon-linkedin.svg" alt="icone linkedin">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
