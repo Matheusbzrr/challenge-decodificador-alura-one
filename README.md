@@ -61,6 +61,7 @@ Ao trabalhar no arquivo `main.js` deste projeto, aprendi bastante sobre como man
 
 Consegui criar funcionalidades para o botão de codificar e decodificar as mensagens, além de adicionar comportamentos específicos para diferentes tipos de tela.
 
+
 Também dividi o código JavaScript para melhorar a organização e a manutenção. O código está em três arquivos: `codificador.js`, `dom.js` e `main.js`.
 
 - `codificador.js`: Contém a lógica de criptografia e descriptografia.
@@ -71,4 +72,8 @@ Também dividi o código JavaScript para melhorar a organização e a manutenç�
 
 Concluído
 
-![decodificador-github](https://github.com/user-attachments/assets/9dceb7a0-d76f-4c42-876e-8ef85d0f58e0)
+
+
+
+https://github.com/user-attachments/assets/c21cd914-1c5d-4fb5-8812-2e3fe2bb0b0b
+
