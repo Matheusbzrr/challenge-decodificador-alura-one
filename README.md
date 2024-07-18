@@ -64,7 +64,8 @@ Consegui criar funcionalidades para o botão de codificar e decodificar as mensa
 Também dividi o código JavaScript para melhorar a organização e a manutenção. O código está em três arquivos: `codificador.js`, `dom.js` e `main.js`.
 
 - `codificador.js`: Contém a lógica de criptografia e descriptografia.
-- `dom.js`: Contém funções auxiliares para manipulação do DOM.
+- `dom.js`: Contém funções auxiliares par![decodificador-github](https://github.com/user-attachments/assets/9dceb7a0-d76f-4c42-876e-8ef85d0f58e0)
+a manipulação do DOM.
 - `main.js`: Coordena a interação entre a lógica de criptografia/descriptografia e a manipulação do DOM.
 
 ## Status :white_check_mark:
