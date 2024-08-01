@@ -72,11 +72,6 @@ Também dividi o código JavaScript para melhorar a organização e a manutenç�
 
 Concluído
 
-## Deploy
-
-
-https://challenge-decodificador-alura-one.vercel.app/
-
 
 
 https://github.com/user-attachments/assets/c21cd914-1c5d-4fb5-8812-2e3fe2bb0b0b
